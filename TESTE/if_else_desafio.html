@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nome = prompt("Digite seu nome");
+        let idade = Number(prompt("Digite sua idade"));
+        let prova = Number(prompt("Digite sua pontuação de 0 á 10"));
+        let pontuaçãoEntrevista = Number(prompt("Digite sua pontuação na entreviste de 0 á 10"));
+        let resposta = "";
+
+        if (prova <0 || prova >10 || pontuacaoEntrevista <0 || pontuacaoEntrevista >10){
+            alert("Nota da prova da entrevista invalida");
+            return;
+        }
+        if(idade<18)
+        resposta += "Voce nao atende aos critérios de idade";
+        
+        if (prova<7);
+        resposta += "Sua pontuação na prova foi insulfisiente";
+        if(pontuacaoEntrevista <6)
+        resposta += "Sua pontuação foi insulfisiente";
+        
+        
+    </script>
+</body>
+</html>
